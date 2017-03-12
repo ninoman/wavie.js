@@ -7,7 +7,7 @@ We call it
 ------------------------------
 ### `Make your own`
 
-<a href="http://wavieJS.github.io" target="_blank"><img src="https://waviejs.github.com/screen-shot.png" alt="Wavie JS" /></a>
+<a href="https://ninoman.github.io/wavie.js/" target="_blank"><img src="https://rawgit.com/ninoman/ninoman.github.io/master/wavie.js/wavie.screenshot.png" alt="Wavie JS" /></a>
 
 
 
