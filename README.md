@@ -16,12 +16,13 @@ We call it
 
 How we say, it's very easy to use WavieJS in your project
 
-Load wavier.js <br/>
+Load wavie.js
 
 **index.html**
 ```html
 <script src="wavie.js"></script>
 ```
+Download your own config from [Wavie JS](https://waviejs.github.io "Wavie JS")
 
 Run wavie function 
 **app.js**
@@ -35,21 +36,18 @@ You even can do this
 wavie(yourCanvasDOM, configObject);
 ```
 
+This is config sample
 **wavie.json**
 ```javascript
 {
     "ballSize": 1,
     "speed": 1,
-
     "phaseRefX": 0.12,
     "phaseRefY": 0.12,
-
     "radiusX": 15,
     "radiusY": 15,
-
     "densityX": 6,
     "densityY": 6,
-
     "backgroundFrom":"#1e174a",
     "backgroundTo":"#000000",
     "degree":62,
@@ -59,10 +57,5 @@ wavie(yourCanvasDOM, configObject);
 
 -------------------------------
 
-### `Options`
-
-For 
-
--------------------------------
 
 
