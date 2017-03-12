@@ -36,7 +36,7 @@ function wavie(canvas, config) {
             .replace('%2', config.backgroundFrom)
             .replace('%3', config.backgroundTo);
         context.clearRect(0, 0, canvas.width, canvas.height);
-        var padding = 1;
+        var padding = 0.25;
         var timeStep = 0.006;
 
         var stepX = 100 / config.densityX;
