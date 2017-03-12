@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nino</title>
+	<title>Wavie.JS</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="canvas-wrapper">
-		<canvas id="myCanvas"></canvas>
+		<canvas style="width: 100vw; height: 100vh;" id="myCanvas"></canvas>
 	</div>
 
 
@@ -14,8 +14,6 @@
 
 <script type="text/javascript" src='../wavie.min.js'></script>
 <script type="text/javascript">
-	myCanvas.width = document.body.clientWidth ;
-    myCanvas.height = Math.max( document.body.scrollHeight, document.body.offsetHeight,document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight );
 	wavie(myCanvas,'wavie.json')
 </script>
 </html>
