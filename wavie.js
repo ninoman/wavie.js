@@ -6,7 +6,7 @@ function wavie(canvas, config) {
 
     var t = 0;
 
-    var devicePixelRatio = window.devicePixelRatio || 1;
+    var devicePixelRatio = Math.max(window.devicePixelRatio,2);
     canvas.width = devicePixelRatio * canvas.offsetWidth;
     canvas.height = devicePixelRatio * canvas.offsetHeight;
 
