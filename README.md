@@ -59,7 +59,7 @@ This is how your config file will look like
 }
 ```
 
-Heey you also can use our CDN
+Heey you can also use our CDN
 
 ```html
 <script src="https://rawgit.com/ninoman/wavie.js/master/wavie.min.js"></script>
