@@ -16,14 +16,15 @@ We call it
 
 How we say, it's very easy to use WavieJS in your project
 
-Load wavie.js
+Download wavie.js library and add it to your project
+Load wavie.js in your
 
 **index.html**
 ```html
 <script src="wavie.js"></script>
 ```
-Download your own config from [Wavie JS](https://waviejs.github.io "Wavie JS")
 
+Download your own config from [Wavie JS](https://waviejs.github.io "Wavie JS")
 Run wavie function
 
 **app.js**
@@ -38,7 +39,7 @@ You even can do this
 wavie(yourCanvasDOM, configObject);
 ```
 
-This is config sample
+This is how your config file will look like
 
 **wavie.json**
 ```javascript
@@ -58,6 +59,11 @@ This is config sample
 }
 ```
 
+Heey you also can use our CDN
+
+```html
+<script src="https://rawgit.com/ninoman/wavie.js/master/wavie.min.js"></script>
+```
 -------------------------------
 
 
