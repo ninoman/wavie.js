@@ -24,19 +24,22 @@ Load wavie.js
 ```
 Download your own config from [Wavie JS](https://waviejs.github.io "Wavie JS")
 
-Run wavie function 
+Run wavie function
+
 **app.js**
 ```javascript
 wavie('yourCanvasTagId', 'JSON config path');
 ```
 
 You even can do this
+
 **app.js**
 ```javascript
 wavie(yourCanvasDOM, configObject);
 ```
 
 This is config sample
+
 **wavie.json**
 ```javascript
 {
