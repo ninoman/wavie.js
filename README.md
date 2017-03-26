@@ -29,7 +29,7 @@ Run wavie function
 
 **app.js**
 ```javascript
-wavie('yourCanvasTagId', 'JSON config path');
+wavie('yourCanvasTagId', 'yourConfig.json');
 ```
 
 You even can do this
